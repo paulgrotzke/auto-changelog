@@ -1,3 +1,3 @@
-const main = () => false
+const main = () => true
 
 export default main
