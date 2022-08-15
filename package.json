@@ -19,5 +19,11 @@
   "homepage": "https://github.com/paulgrotzke/auto-changelog#readme",
   "devDependencies": {
     "auto-changelog": "^2.4.0"
+  },
+  "auto-changelog": {
+    "output": "CHANGELOG.md",
+    "template": "keepachangelog",
+    "unreleased": true,
+    "commitLimit": false
   }
 }
