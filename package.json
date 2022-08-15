@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "version": "auto-changelog -p && git add CHANGELOG.md"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/paulgrotzke/auto-changelog/issues"
   },
-  "homepage": "https://github.com/paulgrotzke/auto-changelog#readme"
+  "homepage": "https://github.com/paulgrotzke/auto-changelog#readme",
+  "devDependencies": {
+    "auto-changelog": "^2.4.0"
+  }
 }
